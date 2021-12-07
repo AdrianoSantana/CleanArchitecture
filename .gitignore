@@ -35,3 +35,6 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+app.db
+app.db-shm
+app.db-wal

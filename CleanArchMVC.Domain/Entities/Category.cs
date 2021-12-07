@@ -15,7 +15,7 @@ namespace CleanArchMVC.Domain.Entities
         public Category(int id, string name)
         {
             Name = name;
-            id = Id;
+            Id = id;
         }
         public ICollection<Product> Products { get; set; }
 
