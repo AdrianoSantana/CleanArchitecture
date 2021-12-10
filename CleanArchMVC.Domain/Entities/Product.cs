@@ -38,7 +38,7 @@ namespace CleanArchMVC.Domain.Entities
             Image = image;
         }
         
-        private void Update(
+        public void Update(
             string name,
             string description, 
             decimal price, 
